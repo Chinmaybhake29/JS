@@ -1,0 +1,14 @@
+<script>
+  let marks = [
+    { name: "Chinmay ", physics: "88", science: "78", math: "98" },
+    { name: "Tanmay ", physics: "88", science: "78", math: "98" },
+    { name: "Chinmay ", physics: "88", science: "78", math: "98" },
+    { name: "Chinmay ", physics: "88", science: "78", math: "98" },
+  ];
+
+  var per = marks.map((user) => {
+    let percentage = ((user.physics + user.math + user.science) / 300) * 100;
+    return user.name + "percentage" + percentage;
+  });
+  console.log(per);
+</script>

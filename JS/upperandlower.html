@@ -1,0 +1,16 @@
+<script>
+  const users = [
+    { name: "Chinmay", age: 23 },
+    { name: "Rahul", age: 25 },
+    { name: "vicky", age: 25 },
+    { name: "Varun", age: 25 },
+  ];
+  var name = [];
+  for (let i = 0; i < users.length; i++) {
+    name.push(users[i].name);
+  }
+  console.log(name);
+
+  var name2 = users.map((user) => users.name);
+  console.log(name2);
+</script>

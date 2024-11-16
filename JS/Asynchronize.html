@@ -1,0 +1,21 @@
+<script>
+  //sychronize
+  console.log("start");
+  const fetchData = () => {
+    console.log("fetchData...");
+  };
+  fetchData();
+  console.log("end");
+  console.log("-----------------------------");
+
+  //Asychronize
+  console.log("start");
+  const fetchData1 = () => {
+    setTimeout(() => {
+      console.log("long task...");
+    });
+  };
+
+  fetchData1();
+  console.log("end");
+</script>

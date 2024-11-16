@@ -1,0 +1,26 @@
+<script>
+  var numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13];
+  console.log(numbers);
+
+  var square = [];
+
+  for (let i = 0; i < numbers.length; i++) {
+    square.push(numbers[i] * numbers[i]);
+  }
+  console.log(square);
+
+  var square2 = numbers.map((num) => num * num);
+  console.log(square2);
+
+  var car = ["volvo", "bmw", "byd", "kia"];
+  var upper = [];
+
+  for (let i = 0; i < car.length; i++) {
+    upper.push(car[i].toUpperCase());
+  }
+
+  console.log(upper);
+
+  var car2 = car.map((car) => car.toUpperCase());
+  console.log(car2);
+</script>
